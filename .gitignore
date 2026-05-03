@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+
+# Security and Secrets
+.env
+.env.*
+secrets.*
+keys.*
+config.local.*
+*.key
+*.pem
+*.p12
+*.cert
+credentials.json
+service-account.json
+!.env.example
+
+# Build output
+dist/
+build/
+.gradle/
+android/.gradle/
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/ios/build/
+mobile/ios/Pods/
+mobile/ios/Podfile.lock
+
+# Local machine config
+local.properties
+mobile/android/local.properties
+
+# Logs and caches
+*.log
+.DS_Store
+.metro-cache/
+.eslintcache
